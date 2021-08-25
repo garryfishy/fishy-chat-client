@@ -4,7 +4,7 @@ import axios from 'axios'
 import router from '../router'
 import swal from 'sweetalert'
 import createPersistedState from "vuex-persistedstate";
-const baseUrl= 'http://localhost:3000'
+const baseUrl= 'https://fishy-chat.herokuapp.com'
 Vue.use(Vuex) 
 
 export default new Vuex.Store({
@@ -83,10 +83,9 @@ export default new Vuex.Store({
             })
             try {
                 if (!result){
-                    console.log('err')
                     swal('An error occurred while registering')
                 }else{
-                    console.log(result)
+                    // console.log(result)
                 }
             } catch (error) {
                 swal('An error occurred while registering')
@@ -120,7 +119,6 @@ export default new Vuex.Store({
                 header: {access_token: localStorage.access_token}
             })
             .then(response => {
-                console.log('response')
                 context.commit('GET_ROOM', response.data)
             })
             .catch(err => {
@@ -135,7 +133,6 @@ export default new Vuex.Store({
             })
             .then(response => {
                 context.commit('GET_TRANSLATION', response.data)
-                console.log(response.data)
             })
             .catch(err => {
                 context.commit('GET_TRANSLATION', {})

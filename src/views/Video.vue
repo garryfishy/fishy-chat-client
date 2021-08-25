@@ -6,7 +6,7 @@
 		<h1 class='text-center text-light'>You are in {{roomName}} room!</h1>
 		<h5 class='text-center text-light'>Please be nice to one another!</h5>
 	<div class="row h-100">
-   <div id='my-video' style="width: 5rem; height:60rem" class="col-sm-12 mx-auto">
+   <div id='my-video' style="width: 5rem; height:35rem" class="col-sm-12 mx-auto">
    </div>
 </div>
   </div>
