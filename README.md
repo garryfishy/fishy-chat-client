@@ -1,5 +1,23 @@
-# client
+# Fishy-Chat App
 
+### Main Features 
+> Video Chat App
+> Translation App
+
+### Video Chat
+> Enter any room and start video chatting.
+> Create a new room from 'Create Room' on navbar.
+
+### Translation
+> Translate words in the bottom left corner
+> After the word is translated, click on the star icon to save the translation.
+> To check saved translation history, click the saved button on navbar.
+
+### To Login
+```
+id: admin
+password: admin
+````
 ## Project setup
 ```
 npm install
@@ -14,21 +32,4 @@ npm run serve
 ```
 npm run build
 ```
-### To Login
-```
-id: admin
-password: admin
-````
 
-### Main Features 
-> Video Chat App
-> Translation App
-
-### Video Chat
-> Enter any room and start video chatting.
-> Create a new room from 'Create Room' on navbar.
-
-### Translation
-> Translate words in the bottom left corner
-> After the word is translated, click on the star icon to save the translation.
-> To check saved translation history, click the saved button on navbar.
