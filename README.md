@@ -14,6 +14,21 @@ npm run serve
 ```
 npm run build
 ```
+### To Login
+```
+id: admin
+password: admin
+````
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Main Features 
+> Video Chat App
+> Translation App
+
+### Video Chat
+> Enter any room and start video chatting.
+> Create a new room from 'Create Room' on navbar.
+
+### Translation
+> Translate words in the bottom left corner
+> After the word is translated, click on the star icon to save the translation.
+> To check saved translation history, click the saved button on navbar.
