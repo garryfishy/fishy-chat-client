@@ -15,8 +15,8 @@
 
 ### To Login
 ```
-id: admin
-password: admin
+id: user
+password: user
 ````
 ## Project setup
 ```
